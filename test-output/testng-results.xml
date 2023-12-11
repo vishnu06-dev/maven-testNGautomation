@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-06T11:29:27 IST" name="Default suite" finished-at="2023-12-06T11:30:23 IST" duration-ms="55511">
+    <groups>
+    </groups>
+    <test started-at="2023-12-06T11:29:27 IST" name="Default test" finished-at="2023-12-06T11:30:23 IST" duration-ms="55511">
+      <class name="TestRunner.TestRnr">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:27 IST" name="setUp" finished-at="2023-12-06T11:29:38 IST" duration-ms="10576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="continuebtn()[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:38 IST" name="continuebtn" finished-at="2023-12-06T11:29:50 IST" depends-on-methods="Base.Setup.setUp" duration-ms="12086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebtn -->
+        <test-method signature="chromeicon()[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:50 IST" name="chromeicon" finished-at="2023-12-06T11:29:54 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeicon -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:54 IST" name="screenShot" finished-at="2023-12-06T11:29:55 IST" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chromeicon status=SUCCESS method=TestRnr.chromeicon()[pri:0, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="dropdownbtn()[pri:2, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:55 IST" name="dropdownbtn" description="dptdwn" finished-at="2023-12-06T11:29:58 IST" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownbtn -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:58 IST" name="screenShot" finished-at="2023-12-06T11:29:59 IST" duration-ms="651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropdownbtn status=SUCCESS method=TestRnr.dropdownbtn()[pri:2, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="taphello()[pri:3, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:29:59 IST" name="taphello" description="tapdemo" finished-at="2023-12-06T11:30:02 IST" duration-ms="3784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taphello -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:02 IST" name="screenShot" finished-at="2023-12-06T11:30:03 IST" duration-ms="803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=taphello status=SUCCESS method=TestRnr.taphello()[pri:3, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="textname()[pri:4, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:03 IST" name="textname" description="textname" finished-at="2023-12-06T11:30:08 IST" duration-ms="4299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textname -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:08 IST" name="screenShot" finished-at="2023-12-06T11:30:08 IST" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textname status=SUCCESS method=TestRnr.textname()[pri:4, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="selectdropdwnbtn()[pri:5, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:08 IST" name="selectdropdwnbtn" description="dtndwn" finished-at="2023-12-06T11:30:12 IST" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdropdwnbtn -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:12 IST" name="screenShot" finished-at="2023-12-06T11:30:12 IST" duration-ms="785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectdropdwnbtn status=SUCCESS method=TestRnr.selectdropdwnbtn()[pri:5, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="tapmercedes()[pri:6, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:12 IST" name="tapmercedes" description="tap merceds" finished-at="2023-12-06T11:30:18 IST" duration-ms="5865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapmercedes -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:18 IST" name="screenShot" finished-at="2023-12-06T11:30:19 IST" duration-ms="759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tapmercedes status=SUCCESS method=TestRnr.tapmercedes()[pri:6, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="submit()[pri:7, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:19 IST" name="submit" description="submited" finished-at="2023-12-06T11:30:22 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:22 IST" name="screenShot" finished-at="2023-12-06T11:30:22 IST" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submit status=SUCCESS method=TestRnr.submit()[pri:7, instance:TestRunner.TestRnr@25be7b63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestRunner.TestRnr@25be7b63]" started-at="2023-12-06T11:30:22 IST" name="close" finished-at="2023-12-06T11:30:23 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestRunner.TestRnr -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

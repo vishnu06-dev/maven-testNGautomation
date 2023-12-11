@@ -23,6 +23,8 @@ public class Setup {
         cap.setCapability("platformName","Android");
         cap.setCapability("platformVersion","11");
         cap.setCapability("automationName","uiautomator2");
+        cap.setCapability("appPackage","io.selendroid.testapp");
+        cap.setCapability("appActivity","io.selendroid.testapp.HomeScreenActivity");
         String appURL = System.getProperty("user.dir")+ File.separator + "app" + File.separator + "selendroid-test-app.apk";
         cap.setCapability("app", appURL);
         //cap.setCapability("appPackage","com.amazon.mShop.android.shopping");

@@ -1,6 +1,7 @@
 package TestRunner;
 
 
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -11,16 +12,23 @@ public class TestRnr extends Setup {
     Landingscrn Lpage;
     
     @BeforeTest
-    public void okbtn() throws InterruptedException {
+    public void continuebtn() throws InterruptedException {
+        Lpage= new Landingscrn(driver);
+
+        Thread.sleep(2000);
+        Lpage.continuebtn.click();
+        System.out.println("STEP:-0 clicked on ok button");
+       
         Lpage=new Landingscrn(driver);
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Lpage.popupBTN.click();
         System.out.println("STEP:-1 click on popup OK button");
-        Thread.sleep(1000);
     }
-    @Test(priority = 1,description = "Clicked on chrome icon")
-    public void chromeicon() throws InterruptedException {
+   
+    
+     @Test //(priority = 1,description = "Clicked on chrome icon")
+    public void chromeicon() throws  InterruptedException {
         Lpage=new Landingscrn(driver);
        Lpage.clickonchrome();
        System.out.println("STEP:-2 Tap on Chrome ICON");

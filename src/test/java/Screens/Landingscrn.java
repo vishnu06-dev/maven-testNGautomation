@@ -9,7 +9,9 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class Landingscrn {
-    @FindBy(id = "android:id/button1")
+    @FindBy(id="com.android.permissioncontroller:id/continue_button")
+    public WebElement continuebtn ;
+    @FindBy(xpath = "//android.widget.Button[@resource-id='android:id/button1']")
     public WebElement popupBTN;
     @FindBy(id = "io.selendroid.testapp:id/buttonStartWebview")
     public WebElement chromeicon;
