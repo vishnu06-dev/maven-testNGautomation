@@ -34,27 +34,27 @@ public class Setup {
         driver=new AndroidDriver(url,cap);
         return driver;
     }
-   @AfterMethod
-    public void screenShot(ITestResult result){
-        if(ITestResult.FAILURE==result.getStatus()){
-            try{
-                 capturingutility utils=new   capturingutility();
-                utils.takeScreenshotForFailure(driver);
-            }
-            catch (Exception exception){
-                System.out.println(exception.toString());
-            }
-        }
-        else{
-            try{
-                capturingutility utils=new   capturingutility();
-                utils.takeScreenshotForSuccess(driver);
-            }
-            catch (Exception exception){
-                System.out.println(exception.toString());
-            }
-        }
-    }
+//    @AfterMethod
+//     public void screenShot(ITestResult result){
+//         if(ITestResult.FAILURE==result.getStatus()){
+//             try{
+//                  capturingutility utils=new   capturingutility();
+//                 utils.takeScreenshotForFailure(driver);
+//             }
+//             catch (Exception exception){
+//                 System.out.println(exception.toString());
+//             }
+//         }
+//         else{
+//             try{
+//                 capturingutility utils=new   capturingutility();
+//                 utils.takeScreenshotForSuccess(driver);
+//             }
+//             catch (Exception exception){
+//                 System.out.println(exception.toString());
+//             }
+//         }
+//     }
 
     @AfterTest
     public void close(){
